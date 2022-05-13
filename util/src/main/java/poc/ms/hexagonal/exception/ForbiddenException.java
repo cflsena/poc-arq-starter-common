@@ -10,11 +10,10 @@ public class ForbiddenException extends BaseException {
     @Serial
     private static final long serialVersionUID = -7388862126254807602L;
 
-    protected ForbiddenException(final MessageTemplate messageTemplate) {
+    public ForbiddenException(final MessageTemplate messageTemplate) {
         super(messageTemplate);
     }
-
-    protected ForbiddenException(final Error error) {
+    public ForbiddenException(final Error error) {
         super(error);
     }
 }

@@ -10,11 +10,11 @@ public class BusinessException extends BaseException {
     @Serial
     private static final long serialVersionUID = 2622025552606717491L;
 
-    protected BusinessException(final MessageTemplate messageTemplate) {
+    public BusinessException(final MessageTemplate messageTemplate) {
         super(messageTemplate);
     }
 
-    protected BusinessException(final Error error) {
+    public BusinessException(final Error error) {
         super(error);
     }
 }
