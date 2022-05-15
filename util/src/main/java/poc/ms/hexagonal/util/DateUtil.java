@@ -12,7 +12,7 @@ import java.time.format.DateTimeParseException;
 
 @Slf4j
 @UtilityClass
-public class DateUtils {
+public class DateUtil {
 
     public static String formatDateIn(final String date, final DateFormat dateFormat) {
         try {
