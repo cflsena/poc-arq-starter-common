@@ -11,6 +11,7 @@
     <modules>
         <module>infrastructure</module>
         <module>util</module>
+        <module>database</module>
     </modules>
 
     <properties>
