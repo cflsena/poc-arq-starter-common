@@ -1,6 +1,5 @@
 package poc.ms.hexagonal.util;
 
-import lombok.NonNull;
 import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
 
@@ -12,7 +11,7 @@ import java.util.Locale;
 @UtilityClass
 public class MoneyUtil {
 
-    public static String formatMoneyInReal(@NonNull final BigDecimal money) {
+    public static String formatMoneyInReal(final BigDecimal money) {
         final Locale ptBr = new Locale("pt", "BR");
         try {
             return NumberFormat.getCurrencyInstance(ptBr).format(money);

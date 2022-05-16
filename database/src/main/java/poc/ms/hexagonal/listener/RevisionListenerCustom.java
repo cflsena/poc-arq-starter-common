@@ -8,7 +8,7 @@ public class RevisionListenerCustom implements RevisionListener {
     @Override
     public void newRevision(final Object entity) {
         var revision = (RevisionEntityCustom) entity;
-        revision.setAuditor("ADMIN");
+//        revision.setAuditor("ADMIN");
     }
 
 }
